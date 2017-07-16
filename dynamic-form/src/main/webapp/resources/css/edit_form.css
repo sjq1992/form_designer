@@ -1,0 +1,97 @@
+.form_head{
+    border-top: none; border-left: none; border-right: none; border-bottom: 1px dashed black;
+}
+
+.item{
+    display:table-cell;
+    width: 100px;
+    height: 40px;
+    border: dashed 2px #e0e0e0;
+    background-color: #f4f4f4;
+    vertical-align:middle;
+    text-align: center;
+}
+.selected{
+    background-color: #D6EAF4;
+}
+
+.form_item{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form_item .text{
+    width:200px;
+    height:23px;
+}
+
+.form_item select{
+    width:200px;
+    height:23px;
+}
+
+.form_item input[type="radio"]{
+    margin-right: 5px;
+    position: relative;
+    top:2px;
+}
+
+.form_item i{
+    display: none;
+}
+
+.form_item.selected i{
+    color: red;
+    float: right;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.opts input{
+    width: 200px;
+    margin-bottom: 10px
+}
+
+.opts .icon-remove-sign{
+    color: red;
+    padding-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.fileinput-button {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.fileinput-button input{
+    position:absolute;
+    right: 0px;
+    top:0px;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+    font-size: 200px;
+}
+
+.modal_body select{
+    width:150px;
+    height: 26px;
+}
+
+.modal_body label{
+    margin-bottom: 0;
+}
+
+.modal_body span{
+    padding-left: 5px;
+}
+
+.modal-item {
+    margin-bottom: 5px;
+}
+
+.tool label{
+    margin-right: 5px;
+}

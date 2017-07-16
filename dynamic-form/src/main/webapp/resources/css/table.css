@@ -1,0 +1,23 @@
+.fixed-table-container thead th .th-inner{
+    padding: 3px;
+    line-height: 25px;
+    font-size:15px;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+    padding: 5px;
+    line-height: 1.1;
+}
+
+.table_title{
+    height: 35px;
+    background-color: #f1f6f6;
+}
+
+.table_btn{
+    height: 29px;
+    width: 60px;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+}

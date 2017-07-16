@@ -1,0 +1,18 @@
+.modal-title {
+    position: relative;
+    top: -12px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.modal-header {
+    height: 35px;
+    background-color: #0DB3A6;
+}
+
+.modal-input{
+    height: 23px;
+    width: 120px;
+    padding-bottom: 5px;
+}

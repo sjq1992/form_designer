@@ -1,0 +1,21 @@
+.login-input{
+    width: 320px;
+    height: 35px;
+    border: 1px solid #d0d0d0;
+}
+
+.login-input:focus {
+    border: 1px solid #0DB3A6;
+}
+
+.login-btn{
+    width: 320px;
+    height: 35px;
+    background-color: #0DB3A6;
+    color: white;
+}
+
+.login-btn:focus, .login-btn:hover, .login-btn.active{
+    background-color: #0CA599;
+    color: white;
+}
